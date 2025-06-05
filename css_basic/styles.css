@@ -1,0 +1,25 @@
+/* Make the body a column flex container */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Make main a row flex container */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+/* Make article take up 2 parts of the space */
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+/* Make aside take up 1 part of the space */
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
