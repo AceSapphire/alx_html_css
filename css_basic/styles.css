@@ -23,3 +23,62 @@ aside {
   flex: 1;
   overflow-y: auto;
 }
+/* Style the logo to make it bigger and standout */
+.logo {
+  font-size: 2rem;         /* bigger size for logo */
+  color: #ff6600;          /* orange color */
+  padding-right: 10px;     /* spacing after logo */
+  font-weight: bold;
+}
+
+/* Change header background and text color */
+header {
+  background-color: #222;  /* dark background */
+  color: white;            /* white text */
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Style header list items */
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+header ul li {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+/* Style article background and text */
+article {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Add a border to article for emphasis */
+article {
+  border: 1px solid #ddd;
+}
+
+/* Optional: style links inside article */
+article a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+header ul li a {
+color: white;
+text-decoration: none;
+}
