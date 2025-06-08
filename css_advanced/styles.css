@@ -1,6 +1,110 @@
-*{
- margin: 0; 
-padding: 0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
- 
+body {
+  background-image: url("./asserts/Object.png");
+  background-repeat: no-repeat;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 80px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  list-style-type: none;
+}
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  color: #ffffff;
+  gap: 60px;
+}
+.get-school {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section h1 {
+  font-size: 120px;
+}
+.hero-section span {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 30px;
+}
+.hero-section button {
+  background-color: #c271ff;
+  border-radius: 22px;
+  padding: 15px 30px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 7px 1px 21px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 7px 1px 21px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 1px 21px 0px rgba(0, 0, 0, 0.75);
+}
+.pros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pros h2 {
+  font-weight: 300;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.pros h2 span {
+  color: #c271ff;
+  font-size: 32px;
+  font-weight: 700;
+}
+.image-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-top: 50px;
+}
+.image-profile div {
+  width: 120px;
+  text-align: center;
+}
+.circle img {
+  border-radius: 50%;
+}
+.purple {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 50px 70px;
+  background-color: #c271ff;
+  color: #ffffff;
+  gap: 40px;
+}
+.purple blockquote{
+    width: 600px;
+}
