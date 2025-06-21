@@ -26,6 +26,8 @@
 
 .nav-links a {
   font-weight: 600;
+  color: white;
+  text-decoration: none;
 }
 
 .nav-links a:hover {
@@ -62,6 +64,7 @@
   margin-bottom: 40px;
   color: white;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .btn:hover {
